@@ -1,0 +1,103 @@
+@media all and (-ms-high-contrast:none), (-ms-high-contrast:active){
+  /* IE10+ CSS styles go here */
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  /* Google Chrome styles go here */
+}
+
+@-moz-document url-prefix() {
+  /* Firefox styles go here */
+  .dateBox .dayOfWeek{
+    line-height: 44px !important;
+  }
+}
+
+.agenda > .event{
+  margin-bottom:10px;
+}
+
+.sectionTitle{
+  font-family: "Times New Roman";
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.dateBox{
+  width: 110px;
+  background-color: black;
+  color: whitesmoke;
+  font-family: Arial;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.dateBox .dayOfWeek{
+  line-height: 40px;
+  float: left;
+  font-size: 22px;
+  border-right: 1px dashed #CCC;
+  padding: 0 3px;
+  width: 50px;
+}
+
+.dateBox .date .day{
+  font-size: 24px;
+  position: relative;
+  top: 3px;
+}
+
+.dateBox .date .month,
+.dateBox .date .year{
+  font-size: 10px;
+  position: relative;
+  bottom: 2px;
+  
+}
+
+.descriptionBox{
+  font-family: Arial;
+  font-size:14px;
+  border: 1px solid black;
+  background-color: #FDF5E6;
+  padding: 5px 8px;
+  width: 390px;
+  
+}
+
+.descriptionBox .name{
+  font-weight: bold;
+  font-family: "Times New Roman";
+  font-size: 18px;
+}
+
+.descriptionBox .description{
+  display:none;
+}
+
+.descriptionBox .detailsLink{
+  color: #F27D00;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.descriptionBox .detailsLink:hover{
+  color: #F6A44D;
+}
+
+.descriptionBox .time{
+  
+}
+
+.descriptionBox .location{
+  
+}
+
+.descriptionBox .instructorName{
+  
+}
+
+.descriptionBox .instructorTitle{
+  
+}
