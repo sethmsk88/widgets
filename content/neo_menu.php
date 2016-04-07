@@ -151,12 +151,11 @@
 					<div id="collapse_1"class="panel-collapse collapse">
 						<div class="panel-body">
 							<p>
-								<?php
-								echo '<a href="' . $neoPath . '&pres=NEO_ASAP" target="_blank">ASAP</a><br />';
-								echo '<a href="' . $neoPath . '&pres=NEO_BAS" target="_blank">Business &amp; Auxiliary Services</a><br />';
-								echo '<a href="' . $neoPath . '&pres=NEO_Libraries" target="_blank">University Libraries</a><br />';
-								echo '<a href="' . $neoPath . '&pres=NEO_Parking" target="_blank">University Parking Services</a><br />';
-								?>
+								<a href="<?= $neoPath ?>&pres=NEO_ASAP" target="_blank">ASAP</a><br />
+								<a href="<?= $neoPath ?>&pres=NEO_BAS" target="_blank">Business &amp; Auxiliary Services</a><br />
+								<a href="http://offender.fdle.state.fl.us/offender/homepage.do;jsessionid=K7wTJ91R6oI3DBpQILwivO+O" target="_blank">FDLE Sexual Offender Registry</a><br />
+								<a href="<?= $neoPath ?>&pres=NEO_Libraries" target="_blank">University Libraries</a><br />
+								<a href="<?= $neoPath ?>&pres=NEO_Parking" target="_blank">University Parking Services</a><br />
 							</p>
 						</div>
 					</div>
