@@ -144,7 +144,7 @@
 								data-parent="#neo_menu"
 								href="#collapse_1"
 								>
-								Other
+								Other Important Information
 							</a>
 						</h4>
 					</div>
