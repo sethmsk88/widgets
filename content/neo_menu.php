@@ -42,7 +42,6 @@
 	.form-group > input{
 		margin-bottom:10px;
 	}
-
 	</style>
 
 	
@@ -154,6 +153,7 @@
 								<a href="<?= $neoPath ?>&pres=NEO_ASAP" target="_blank">ASAP</a><br />
 								<a href="<?= $neoPath ?>&pres=NEO_BAS" target="_blank">Business &amp; Auxiliary Services</a><br />
 								<a href="http://offender.fdle.state.fl.us/offender/homepage.do;jsessionid=K7wTJ91R6oI3DBpQILwivO+O" target="_blank">FDLE Sexual Offender Registry</a><br />
+								<a href="http://hrodt.famu.edu/bootstrap/apps/presentations/FERPA_Registrar_Presentation/" target="_blank">FERPA</a><br />
 								<a href="<?= $neoPath ?>&pres=NEO_Libraries" target="_blank">University Libraries</a><br />
 								<a href="<?= $neoPath ?>&pres=NEO_Parking" target="_blank">University Parking Services</a><br />
 							</p>
@@ -162,8 +162,13 @@
 				</div>
 			</div> <!-- End NEO Menu -->
 		</div> <!-- End content -->
+		
 		<p>
 			Once you have watched all presentations, please <span class="js_link" id="clickHere">click here</span> to certify your completion of the New Employee Orientation.
+		</p>
+
+		<p>
+			<span class="bg-danger text-danger" style="padding:0 4px;">* Presentations available in alternate format upon request</span>
 		</p>
 
 	</div> <!-- End Page 1 -->
