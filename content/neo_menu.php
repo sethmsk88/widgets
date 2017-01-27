@@ -122,7 +122,7 @@
 					"Anti-Hazing" => "NEO_Anti-Hazing",
 					"Environmental Health &amp; Safety" => "NEO_EHS"];
 				
-				$neoPath = "http://168.223.1.35/bootstrap/apps/neo/?page=homepage";
+				$neoPath = "http://hrodt.famu.edu/bootstrap/apps/neo/?page=homepage";
 
 				// For each choice in menuChoices array, create panel
 				foreach ($menuChoices as $choice => $presentationName){
