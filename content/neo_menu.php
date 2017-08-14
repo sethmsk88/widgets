@@ -123,7 +123,7 @@
 	</div> <!-- End content -->
 	
 	<p>
-		Once you have watched all presentations, please <a href="http://www.famu.edu/index.cfm?odtraining&NewEmployeeOrientationCertification">click here</a> to certify your completion of the New Employee Orientation.
+		Once you have watched all presentations, please <a href="/bootstrap/apps/widgets/content/neo_certify.php">click here</a> to certify your completion of the New Employee Orientation.
 	</p>
 
 	<p>
