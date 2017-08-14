@@ -1,5 +1,7 @@
 <?php
 
+echo 'You submitted the form.<br>'; exit;
+
 // List of validation errors
 $errors = "";
 

@@ -83,11 +83,13 @@
 
     	if (file_exists($filePath)){
             if ($loadWidget){
-                echo '<iframe ' .
-                        'src="http://10.123.100.18/bootstrap/apps/widgets/content/' . $_GET["page"] . '.php"' .
-                        'style="border:1px inset black; width:540px; height:1000px; margin:10px;">' .
-                        'iFrames not supported by your browser' .
-                     '</iframe>';
+    ?>
+                <iframe
+                    src="/bootstrap/apps/widgets/content/<?= $_GET["page"] ?>.php"
+                    style="border:1px inset black; width:540px; height:1000px; margin:10px;">
+                    iFrames not supported by your browser
+                </iframe>;
+    <?php
             }
             else{
                 include $filePath;
