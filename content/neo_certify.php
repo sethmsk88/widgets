@@ -35,6 +35,14 @@
 			margin-bottom:10px;
 		}
 		</style>
+
+		<!-- Bootstrap -->
+		<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		    <!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="/bootstrap/js/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<?php
@@ -72,7 +80,7 @@
 			name="certifyForm"
 			method="post"
 			role="form"
-			action=""
+			action="./neo_certify_act.php"
 			>
 
 			<div class="form-group">
